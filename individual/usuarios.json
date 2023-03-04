@@ -1,0 +1,1 @@
+[{"id": 1, "nombre": "admin1", "clave": "admin1", "perfil": "administrador"}, {"id": 2, "nombre": "ventas1", "clave": "ventas1", "perfil": "vendedor"}, {"id": 3, "nombre": "bodega1", "clave": "bodega1", "perfil": "bodeguero"}, {"id": 4, "nombre": "admin2", "clave": "admin2", "perfil": "administrador"}]

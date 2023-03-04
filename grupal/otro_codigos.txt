@@ -1,0 +1,30 @@
+
+                # Obtener el último ID
+                if clientes:
+                    last_id = clientes[-1]['id']
+                else:
+                    last_id = 0
+                # Generar un nuevo ID
+                id = last_id + 1
+            else:
+                # Si el archivo no existe o está vacío, asignar ID 1
+                id = 1
+                clientes = []
+            
+            # Crear el objeto cliente
+            cliente = Cliente(id, nombre, apellido, correo, fecha_registro, saldo)
+            
+            # Agregar el cliente al archivo JSON
+            clientes.append({
+                'id': id,
+                'nombre': nombre,
+                'apellido': apellido,
+                'correo': correo,
+                'fecha_registro': fecha_registro.strftime('%d/%m/%Y'),
+                'saldo': saldo
+            })
+            
+            with open('clientes.json', 'w') as archivo:
+                json.dump(clientes, archivo)
+            
+            print('Cliente creado exitosamente.')
