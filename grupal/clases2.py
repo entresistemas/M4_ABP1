@@ -13,6 +13,7 @@ class Cliente:
         self.__saldo = saldo #Elemento privado
 
     # Metodo para Crear nuevo Cliente
+    # --------------------
     @staticmethod
     def crear_cliente():
         try:
