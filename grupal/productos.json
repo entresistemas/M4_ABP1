@@ -1,1 +1,1 @@
-[{"sku": "2345678", "nombre": "Galleta Mini Choc", "categoria": "Galletas", "proveedor": "Mckay", "stock": 150, "valor_neto": 100, "impuesto": 1.19, "valor_bruto": 119.0}]
+[{"sku": "2345678", "nombre": "Galleta Mini Choc", "categoria": "Galletas", "proveedor": "Mckay", "stock": 150, "valor_neto": 100, "impuesto": 1.19, "valor_bruto": 119.0}, {"sku": "76531221", "nombre": "Jugo Naranja 200ml", "categoria": "Jugos", "proveedor": "Watts", "stock": 85, "valor_neto": 160, "impuesto": 1.19, "valor_bruto": 190.39999999999998}]
